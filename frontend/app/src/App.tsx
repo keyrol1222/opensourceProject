@@ -7,6 +7,11 @@ import Layout from './layout/Layout';
 import Language from './routes/Language';
 import Gender from './routes/Gender';
 import Elenco from './routes/Elenco';
+import Login from './routes/Login';
+import Item from './routes/Item';
+import Article from './routes/Article';
+import Client from './routes/Client';
+import Employee from './routes/Employee';
 const router = createBrowserRouter([
   {
     path: "/id",
@@ -26,6 +31,36 @@ const router = createBrowserRouter([
   {
     path: "/Elenco",
     element: <Elenco/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/item",
+    element: <Item/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/Login",
+    element: <Login/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/Article",
+    element: <Article/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/Client",
+    element: <Client/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/Employee",
+    element: <Employee/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/",
+    element: <Login/>,
     errorElement: <ErrorPage/>
   },
   {
