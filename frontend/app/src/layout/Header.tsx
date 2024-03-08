@@ -36,7 +36,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="./logo192.png" alt="" />
+            <img className="h-8 w-auto" src="./logo.png" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -112,6 +112,15 @@ export default function Header() {
           </a>
           <a href="/Elenco" className="text-sm font-semibold leading-6 text-white">
           Elencos
+          </a>
+          <a href="/Article" className="text-sm font-semibold leading-6 text-white">
+          Artículos
+          </a>
+          <a href="/Client" className="text-sm font-semibold leading-6 text-white">
+          Clientes
+          </a>
+          <a href="/Employee" className="text-sm font-semibold leading-6 text-white">
+          Empleados
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -192,6 +201,12 @@ export default function Header() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   Elencos
+                </a>
+                <a
+                  href="/Article"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
+                >
+                  Artículos
                 </a>
               </div>
               <div className="py-6">
